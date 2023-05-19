@@ -1,10 +1,222 @@
-Book
-  Chapter 1
-    Section 1
-    Section 2
-  Chapter 2
-    Section 1
-      Diagram 1
-  Chapter 3
-    Section 1
-    Section 2
+<style>
+  a{
+    color: rgb(0,113,113);
+  }
+  
+   a:hover {
+    color: rgb(199, 81, 31);
+  }
+
+.add{
+  background-color: rgb(255,216, 20);
+  color: black;
+  font-weight: bold;
+  border: none;
+  height: 36px;
+  width: 130px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.add:hover{
+  background-color:rgb(247, 202, 0);
+}
+.add:active{
+  opacity: 0.5;
+}
+
+ .buy{
+   background-color: rgb(255,164,28);
+   border: none;
+   height: 36px;
+   width: 120px;
+   font-weight: bold;
+   border-radius: 18px;
+   cursor: pointer;
+   margin-left: 8px;
+   transition: opacity 0.15s;
+ }
+
+ .buy:hover{
+  background-color:rgb(255, 164, 28);
+}
+.buy:active{
+  opacity: 0.5;
+}
+
+
+ .subscribe{
+    background-color: rgb(200,0,0);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+ }
+  
+  .subscribe:hover{
+    opacity: 0.8;
+  }
+  
+  .subscribe:active{
+    opacity: 0.4;
+  }
+
+.join{
+  background-color: white;
+  border-color: rgb(41, 118, 211) ;
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(41, 118, 211);
+  padding: 9px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.join:hover{
+   background-color: rgb(41, 118, 211);
+   color: white;
+ }
+
+ .join:active{
+   opacity: 0.5;
+ }
+
+.tweet{
+  background-color: rgb(2, 161, 245);
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 18px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s , opacity 0.15s;
+}
+ 
+.tweet:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+
+.tweet:active{
+  opacity: 0.5;
+}
+
+
+
+
+.back-button{
+  padding: 8px ;
+  margin-right: 8px;
+  font-size: 16px;
+  
+}
+ 
+.search-result{
+  margin-left: 6px;
+margin-right: 6px;
+font-size: 18px;
+}
+
+.next-button{
+  padding: 8px;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.stretch{
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: padding 0.15s;
+}
+ .stretch:hover{
+  padding: 20px;
+ }
+
+.shadow{
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.30);
+}
+.shadow:active{
+   box-shadow: none;
+}
+
+
+.one{
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15s , margin 0.15s;
+}
+
+.one:hover{
+  padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+</style>
+
+
+
+
+</style>
+ 
+<a  href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=559s">Back to amazon</a>
+<br>
+<h1>Nike Black Running Shoes</h1>
+<h2 style="color:rgb(0,118,0)">$39- in stock</h2>
+<h3>Free Delivery tomorrow.</h3>
+
+
+<button class="add">Add to Cart</button>
+<button class="buy">Buy now</button>
+<br>
+<br>
+<br>
+<button class="subscribe">SUBSCRIBE</button>
+<button class="join">JOIN</button>
+<button class="tweet">Tweet</button>
+
+<br>
+<br>
+<br>
+
+<button class="back-button">Back</button>
+<a class="search-result" href="https://google.com">1</a>
+<a class="search-result" href="https://google.com">2</a>
+<a class="search-result" href="https://google.com">3</a>
+<a class="search-result" href="https://google.com">4</a>
+<a class="search-result" href="https://google.com">5</a>
+<button class="next-button">Next</button>
+<br><br><br>
+
+<button class="stretch">Stretch</button>
+<button class="shadow">Shadow</button>
+<br><br><br>
+
+<button class="one">one</button>
+<button class="one">two</button>
+<button class="one">three</button>
